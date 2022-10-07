@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: 'roboto';
     font-weight: 500;
+    font-style: italic;
 }
 
 body {
@@ -33,4 +34,28 @@ b {
     padding-bottom: 40px;
     font-size: 48px;
     font-weight: 500;
+}
+
+.button {
+    position: relative;
+    width: 640px;
+    height: 120px;
+    color: #F94671;
+    background-color: white;
+    margin: 60px 0;
+    border-radius: 20px;
+}
+
+.button-content {
+    margin: auto 40px;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer {
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
 }
