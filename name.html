@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./style.css">
+
+<body>
+    <div class="page">
+        <div class="section">
+            <div class="title">
+                Input the <b>TITLE</b>
+            </div>
+            <div class="sub-title">
+                Making title can be tough, but I can do it ! <br />
+                Touch the “Random”. I can do this all day (ง •̀ω•́)ง (ง •̀_•́)ง
+            </div>
+
+            <div class="option-title">TITLE</div>
+
+            <div class="input-box">
+                <input type="text">
+                <div onClick="location.href='#'" class="random-button">
+                    <div class="text-center">Random</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigater">
+            <div class="options">
+                <div onClick="location.href='index.html'" class="navigate-button">
+                    <div class="text-center">HOME</div>
+                </div>
+                <div onClick="location.href='result.html'" class="navigate-button">
+                    <div class="text-center">NEXT</div>
+                </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        oddyard.com/keenlab
+    </div>
+</body>
+
+<style>
+    .options {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    .navigater {
+        position: relative;
+        width: 640px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .navigate-button {
+        width: 140px;
+        height: 48px;
+        color: #F94671;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+
+    .option-title {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    input[type=text] {
+        width: 420px;
+        height: 55px;
+        border-radius: 8px;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .input-box {
+        display: flex;
+        justify-items: flex-start;
+    }
+    .random-button {
+        width: 120px;
+        height: 60px;
+        border-radius: 8px;
+        background-color:#56556A;
+        overflow: auto;
+        margin-left: 20px;
+
+        color: #fff;
+    }
+
+    .text-center {
+        text-align: center;
+        margin-top: 17px;
+    }
+</style>
