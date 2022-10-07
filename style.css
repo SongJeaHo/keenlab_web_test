@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+
+.page {
+    width: 100wv;
+    height: 100vh;
+    background-color: #F94671;
+    color: white;
+}
+
+.section {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 100px 0;
+    font-size: 60px;
+    font-weight: 900;
+}
