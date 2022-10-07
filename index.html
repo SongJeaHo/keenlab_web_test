@@ -6,13 +6,53 @@
     <div class="page">
         <div class="section">
             <div class="title">
-                HOME
+                Choose the <b>GENRE</b>
             </div>
-            <a href="setting.html">
-                시작하기
-            </a>
+            <div class="sub-title">
+                AI Composer KEENEAT will make <br />
+                the only song that doesn’t exist in te world.<br />
+                Even in a minute ! <br />
+            </div>
+
+            <div class="genre-button" id="lofi">
+                <div class="button-content">LOFI</div>
+            </div>
+            <div class="genre-button" id="boombap">
+                <div class="button-content">Boombap</div> 
+            </div>
+            <div class="genre-button" id="trap">
+                <div class="button-content">Trap</div>
+            </div>
+            <div class="genre-button" id="disco">
+                <div class="button-content">Disco</div>
+            </div>
         </div>
     </div>
 </body>
+
+<style>
+    .sub-title {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .genre-button {
+        position: relative;
+        width: 640px;
+        height: 120px;
+        color: #F94671;
+        background-color: white;
+        margin: 40px 0;
+        border-radius: 20px;
+    }
+
+    .button-content {
+        margin: auto 40px;
+        font-size: 32px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
 
 
